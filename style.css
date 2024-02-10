@@ -1,0 +1,501 @@
+#slider-bar {
+    width: 300px;
+    height: 10px;
+    background-color: gray;
+    position: relative;
+  }
+  
+  #slider-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: -5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #slider-value {
+    margin-top: 10px;
+  }
+  body{
+    background-image: url(iphone.webp);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    width: 1000px;
+    height: 950px;
+   
+  }
+
+
+
+  .TimeTable{
+    height: 110px;
+    background-color: none;
+    width: 200px;
+    margin-left: 75px;
+    
+
+  }
+
+
+.TimePhone{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 30px;
+    font-size: 80px;
+}
+
+
+.TextHome{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 445px;
+    
+    text-align: center;
+}
+
+
+.PasswordTable{
+  background-color: rgba(43, 43, 43, 0.5); 
+  backdrop-filter: blur(15px);
+  width: 352px; 
+  height: 608px; 
+  margin-top: -609px;
+}
+
+
+
+
+.PasswordText{
+  margin-left: 85px;
+
+}
+
+.PasswordTextSon{
+  padding-top: 105px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+.TextPassInput{
+  background-color: rgba(255, 0, 0, 0);
+  height: 30px;
+  width: 234px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px ;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.NumbersPass{
+  display: grid;
+}
+
+
+.Number1{
+  border-radius: 35px;
+  margin-top: 30px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 35px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.Number1 p{
+font-size: 35px;
+cursor: pointer;
+margin-top: 15px;
+}
+
+.Number1:hover{
+  background-color: rgb(153, 148, 148);
+  transition: background-color 0.5s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.Number2{
+  border-radius: 35px;
+  margin-top: -70px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 140px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+.Number2 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number2:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+
+
+
+
+  
+
+.Number3{
+  border-radius: 35px;
+  margin-top: -70px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 250px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.Number3 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number3:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+.Number4{
+  border-radius: 35px;
+  margin-top: 28px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  color: white;
+  margin-left: 250px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Number4 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number4:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+
+.Number5{
+  border-radius: 35px;
+  margin-top: -70px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 140px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.Number5 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number5:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+
+.Number6{
+  border-radius: 35px;
+  margin-top: -70px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 35px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Number6 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number6:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+
+
+.Number7{
+  border-radius: 35px;
+  margin-top: 30px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 35px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Number7 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number7:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+.Number8{
+  border-radius: 35px;
+  margin-top: -70px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 140px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.Number8 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number8:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+
+
+
+.Number9{
+  border-radius: 35px;
+  margin-top: -70px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 250px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.Number9 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number9:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+.Number0{
+  border-radius: 35px;
+  margin-top: 15px;
+  width: 70px;
+  background-color: rgba(56, 54, 54, 0.348);
+  height: 70px;
+  margin-left: 140px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Number0 p{
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  
+  .Number0:hover{
+    background-color: rgb(153, 148, 148);
+    transition: background-color 0.5s; 
+  }
+
+
+.info{
+  width: 800px;
+  height: 800px;
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 800px;
+  margin-top: -800px;
+  box-shadow: 0px -1px 20px 4px;
+  border: 5px solid;
+  border-radius: 20px;
+}
+
+
+.slider-container {
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.slider-track {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.slider-handle {
+  width: 20px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slider-value {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
+
+
+.custom-slider-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.custom-slider-track {
+  width: 100%;
+  height: 5px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.custom-slider-handle {
+  width: 20px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.custom-slider-value {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-slider-container2 {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.custom-slider-track2 {
+  width: 100%;
+  height: 5px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.custom-slider-handle2 {
+  width: 20px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.custom-slider-value2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
